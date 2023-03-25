@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+	<main>
+		<h1>Heading 1 tag</h1>
+		<h2>Heading 2 tag</h2>
+		<h3>Heading 3 tag</h3>
+		
+		<p>A simple paragraph tag Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+			A ab autem cupiditate deleniti dolores earum eius enim, incidunt ipsum maiores modi odit
+			praesentium quam quasi quidem sit tempore veniam voluptatibus.</p>
+		
+		<p>Here is a paragraph tag that has a <h4>Heading 4 tag </h4> in it ipsum dolor sit amet, consectetur
+		adipisicing elit. A ab autem cupiditate deleniti dolores earum eius enim, incidunt ipsum maiores modi odit
+			praesentium quam quasi quidem sit tempore veniam voluptatibus.</p>
+		
+		<div>
+			<h5>Here is a heading 5 tag to start our div block.</h5>
+			<p>Notice how you don't see a difference. As we start CSS we will start to change how it looks and the
+				div class will be more pronounced.</p>
+			<ul>
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+			
+			<p>Notice also the UL on  contains the nest list.  UL can have some css attributes added, but it too is
+				just a shell for the list.  Try to change the li tags to ol tags and see what that difference is.</p>
+		</div>
+		
+		<div>
+			<h6>A heading 6 tag to start a new div block</h6>
+			<div>
+				<p>Just a paragraph that's in a nested div block.</p>
+				
+				Look here, this code isn't in p tags.  If we add a bit of text here you can see how it compares to a p
+				tag. Doesn't look too different doest it. However, this will just display as plain text. If we wanted
+				to control characteristics of this block it would be hard to do.  If we wrap it in p tags and change
+				the characteristics of how p tags show then we can control our code better.
+				
+				<p> This is a CSS concept we will be discussion in an upcoming blog.  For now this is a great
+					opportunity to show how to link using our a tags.  Here is how we can link to a source not on
+					our website.  A <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">link</a>  to a page
+					on css</p>
+				
+				<p>In our meta tag we added charset, which is an attribute or a characteristic of that tag. For a
+					tags we use href (hypertext reference) to tell the browser the location we want to look.  We
+					will touch more on what links are doing in the next blog. Also we put the work or even image we
+					want to be the clickable part inside the tags. So in my example the word link is the hyperlink.
+				 If you want the word CSS to be link then that goes in the tags like this <a
+							href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></p>
+				
+				<p>We can do <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">multiple words</a></p>
+				
+				<p>Now lets do multiple words with an image.  First lets display an image using img tag. This will
+					require some attributes as well. <img
+							src="https://prodix-blog.nyc3.cdn.digitaloceanspaces.com/icon.png" alt="Prodix Solutions">
+					Before we link it lets talk about those attributes.  "scr" this is the location of the image. For
+					now its just link to a file on the web.  Don't confuse this as being a hyperlink, this is instead
+					just searing the web.  As i mentioned we will discuss folder and files in the next blog and this
+					will all come together. The "alt" attribute is used in case the image cant be found.  Maybe the
+					link changed or the file removed. You may have seen this before where a picture doesnt load.  The
+					alt will then kick in and display the text.  This can be whatever you want it to be.  Just
+					remember the longer it is the more space it will take up and will really change things around
+					when we get to how css displays.
+				</p>
+				
+				<p>So now lets make our image be a link to somewhere. so like before we put pur a tag and fill in
+					our href. then instead of the words we will use our image just like we did before and we end up
+					with this.
+					<a href="https://prodixsolutions.com">
+						<img src="https://prodix-blog.nyc3.cdn.digitaloceanspaces.com/icon.png" alt="Prodix Solutions">
+					</a>
+				</p>
+				
+				<p>So we can put these a tags where we want a link, we can do buttons, inside lists, inside headers,
+				they just have to in our body to be clickable. This will become more evident shortly. Notice one
+					thing here about my last a and img tags.  See how the opening and closing of the a tags are on
+					different lines and the img is inside it on its own line. This is part of keeping the code clean
+				and readable.  Sure i can smash it all together and make it work, I can even spread things out more,
+					and it works the same. The point is that you can space things around and the browser still knows
+				what to do.  If I had these paragraphs on one line it would be hard to read, instead I keep short
+					lines and the browser will display this still in the correct format</p>
+				
+				<p>So there are some html code you will use alot.  Now when we look at this page, its ugly
+					and lacks all kinds of eye candy.  We are going to focus on fixing that.</p>
+			</div>
+		</div>
+		
+		
+	</main>
+
+</body>
+</html>
